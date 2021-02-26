@@ -1,0 +1,363 @@
+
+body 
+{
+    margin:auto;
+    color:black;
+    background-color:white;
+    background-image:url(images/cyberpunkwallpaper.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+}
+
+h1
+{
+	width: 500px;
+    font-family: Oswald, sans-serif;
+    font-size: 40px;
+    margin: auto; 
+    border-radius: 12px;
+    border: 1px solid black;
+    color: red;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background:rgba(0,0,0,0.7);
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+h3
+{
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-radius: 12px;
+    border: 1px solid black;
+    color: yellow;
+    padding: 10px;
+    margin-bottom: 10px;
+    background:rgba(0,0,0,0.7);
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s; 
+}
+
+em
+{
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 12px;
+    border: 1px solid black;
+    color: rgb(224, 41, 139);
+    padding: 10px;
+    margin-bottom: 10px;
+    background:rgba(0,0,0,0.7);
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;  
+}
+
+p
+{
+    width: 900px; 
+    font-family: "Roboto", cursive;
+    margin: auto; 
+    border-radius: 12px;
+    border: 1px solid black;
+    color: #FFFFFF;
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    background:rgba(0,0,0,0.7);
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+.flotte 
+{
+	float:left;
+}
+
+#p2
+{
+    width: 900px; 
+    font-family: "Roboto", cursive;
+    margin: auto; 
+    border-radius: 12px;
+    border: 1px solid black;
+    color: #FFFFFF;
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    background:rgba(0,0,0,0.7);
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+#retour
+{
+	width: 200px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: auto;
+	border-radius: 12px;
+    border: 1px solid black;
+	text-align: center;
+	font-size: 1.4em;
+	background:rgba(0,0,0,0.7);
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+#texte
+{
+    width: 350px; 
+    margin: auto; 
+    border-radius: 10px;
+    border: 4px solid black;
+    color: #FFFFFF;
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    background:rgba(0,0,0,0.7);
+    opacity: 1;
+}
+
+#encadre
+{
+    width: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    background:rgba(0,0,0,0.7);
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+    border-radius: 10px;
+    border: 4px solid black;
+    padding: 4px;
+    font-size: 1.4em;
+}
+
+#encadre_gros
+{
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    background:rgba(0,0,0,0.7);
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+    border-radius: 10px;
+    border: 4px solid black;
+    padding: 4px;
+    font-size: 3em;
+}
+
+section
+{
+    width:400px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: #FFFFFF;
+    text-align: justify;
+    padding: 12px;
+    margin-top: 376px;
+    margin-right: 20px;
+    float: right;
+    background:rgba(0,0,0,0.7);
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+h2
+{
+    font-size: 50px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    background: linear-gradient(red, rgb(50,0,0))
+}
+
+@media screen and (max-width: 870px)
+{
+    aside
+    {
+    	display: block;
+    	width: auto;
+    	margin-left: 2.5%;
+    	margin-right: 2.5%;
+    	float: none;
+    	clear: both;
+    }
+}
+
+aside 
+{ 
+	display: inline-block;
+    vertical-align: top;
+    float:right;
+    width:400px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: #FFFFFF;
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 0px;
+    position: absolute; right: 20px; top: 188px;
+    background:rgba(0,0,0,0.7);
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+img 
+{
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	border-radius: 10px;
+ 	border: 2px solid black;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+footer
+{
+    width: 350px; 
+    margin: auto; 
+    border-radius: 10px;
+    border: 4px solid black;
+    color: #FFFFFF;
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    background:rgba(0,0,0,0.7);
+    opacity: 1;
+}
+
+.gif_up
+{
+	
+}
+
+a
+{
+    color: #87CEEB;
+    text-align: center;
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+nav
+{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav ul li
+{
+    float: left;
+    width: 25%;
+    text-align:  center;
+}
+
+nav ul::after
+{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+nav a
+{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: : 10px 0px;
+}
+
+nav a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+
+.sous
+{
+    display: none;
+    boxshadow: 0px 1px 2px #CCC;
+    background-color: white;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+
+.sous li{
+    float: none;
+    width: 100%;
+    text-aling: left;
+}
+
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,01);
+}
+
+.deroulant > a::after{
+    content:"▼";
+    font-size: 12px;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
