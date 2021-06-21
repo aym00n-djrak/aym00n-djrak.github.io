@@ -42,7 +42,8 @@
 l’énergie consommée. Le retournement temporel apporte une solution pour obtenir de faibles
 rendements énergétiques. Pour des opérations à distance, des interfaces de faible latence,
 automatisées, reliant véhicules et signalisations, pourront alors être perfectionnées. Cela me
-passionne.
+passionne. <br>
+		<br>
 La 5G étant très énergivore, le retournement temporel peut permettre la réduction énergétique.
 L’étude du lien entre téléphones et antennes permet la localisation d’emplacements optimaux, sans
 interférence ni perte de débit. Ces positions sont transmises à l’antenne pour n’émettre que des
@@ -72,56 +73,56 @@ Focalisation par retournement temporel  /  Time reversal focusing<br>
 			<B>Bibliographie commentée :</B> <br>
 			<br>Le retournement temporel des ondes permet de focaliser des signaux dans l’espace et le temps. Son
 application à la technologie 5G est clairement expliquée dans l’article [1], c’est une technique
-envisagée pour augmenter le débit de la téléphonie mobile et réduire la consommation d’énergie. 
+envisagée pour augmenter le débit de la téléphonie mobile et réduire la consommation d’énergie. <br>
+		<br>
 Cette technique consiste pour l’antenne 5G à la transmission de signaux « précodés » vers un
 téléphone. Le terme « précodé » signifie que l’antenne aura déterminé la position du téléphone
 avant l’envoi des signaux. Le débit du signal transmis sera alors optimal, car adapté aux conditions
-spatiales et temporelles du téléphone.
+spatiales et temporelles du téléphone.<br>
+		<br>
 De plus, le document de DINH-THUY PHAN-HUY [6] montre que la focalisation par retournement
 temporel permet aux antennes de suivre un véhicule en déplacement, tout en limitant les
-interférences, ce qui améliore l’efficacité énergétique.
+interférences, ce qui améliore l’efficacité énergétique.<br>
+		<br>
 L’article mettant en valeur les interférences à deux ondes [2], permet l’étude du déphasage émis par
 2 antennes 5G. Cette étude nous mène à la caractérisation d’un signal optimal possédant un débit
 identique au signal initial et ayant une amplitude élevée. Ce signal nous apprend donc quel type de
-Mots-clés (ETAPE 1)
-Mots-Clés (en français) Mots-Clés (en anglais)
-Retournement temporel Time-reversal
-Filtrage spatial Beamforming
-Interférence
-constructive/destructive
- constructive destructive
-interference
-Onde millimétrique Millimeter wave
-Signal sinusoïdal Sinusoidal signal
-1
-signaux sélectionner pour que le retournement temporel effectue son filtrage.
+signaux sélectionner pour que le retournement temporel effectue son filtrage.<br>
+		<br>
 Le spectre utilisé par les antennes 5G est celui des hautes fréquences, en moyenne : 700 MHz. Pour
 l’expérimentation de notre système, on choisit d’utiliser les ultrasons, soit des ondes sonores
 supérieures à 20 000 Hz. Elles sont inaudibles pour l’homme et permettent de mesurer facilement la
-distance, d’un émetteur à un récepteur.
+distance, d’un émetteur à un récepteur.<br>
+		<br>
 Lors de l’émission de 2 ondes, des interférences se forment. Un système de fente d’Young permet
 l’étude des positions d’un téléphone 5G. En effet, le téléphone se déplace et rencontre des obstacles.
 Les signaux qui convergent vers le téléphone se retrouvent alors interférés par ceux-ci. C’est ce que
-l’on souhaite éliminer pour optimiser le réseau 5G.
+l’on souhaite éliminer pour optimiser le réseau 5G.<br>
+		<br>
 L’article annonçant le retournement temporel comme une technologie moins coûteuse en énergie [3]
 nous apporte une solution, le filtrage spatial. Ce filtrage permet l’élimination des zones
 d’interférences.  Les positions sont ainsi filtrées, des emplacements optimaux où il n’y a pas
-d’interférence sont indiqués et utilisés.
+d’interférence sont indiqués et utilisés.<br>
+		<br>
 En résumé, les positions se verront transmises par le téléphone vers l’antenne 5G puis seront filtrées
 pour ainsi ne sélectionner que des emplacements optimaux.
 Les antennes réalisent donc une économie en ajoutant, lors de l’émission d’ondes, une consigne : «
 envoyer uniquement sur les emplacements optimaux ». Les interférences sont théoriquement
-éliminées.
+éliminées.<br>
+		<br>
 L’article [4] prouve que, une fois les zones d’interférences éliminées, le téléphone peut se déplacer
-partout.
+partout.<br>
+		<br>
 En effet, l’antenne actualise à tout instant, dès qu’un déplacement est effectué, le filtrage du signal.
 Le processus ainsi réitéré, le téléphone capte des signaux optimaux partout. Il recevra donc des
 signaux filtrés, adaptés à sa position à un instant T et possédant un débit non dégradé.
 Pour observer ce phénomène, une carte de mesure d’amplitude nous permet de déterminer
-expérimentalement les emplacements optimaux.
+expérimentalement les emplacements optimaux.<br>
+		<br>
 La documentation matplotlib [5] nous permet de modéliser cette même carte d’amplitude sur
 python. Les mesures expérimentales se verront validées si les positions sélectionnées sont optimales
-et d’amplitudes maximales ; sinon elles seront invalidées.
+et d’amplitudes maximales ; sinon elles seront invalidées.<br>
+		<br>
 Ce qui permet enfin de transmettre les données des positions à l’antenne, comme montré dans
 l’article [6]. <br>
 <br>
